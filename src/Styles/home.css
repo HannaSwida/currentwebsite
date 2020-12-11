@@ -1,0 +1,270 @@
+.Home {
+  text-align: center;
+  background-color: slategray;
+    min-width:100vw;
+    min-height:100vh;
+}
+.Upper-line{
+    background-color: #39d2e3;
+    height:5px;
+    width:99vw;
+}
+.LoadingScreen{
+    background-color: #212224;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+}
+.LoadingScreen h1{
+    color: #39d2e3;
+    letter-spacing:3vw;
+    margin:100px;
+    text-shadow: 0px 0px 20px #39d2e3;
+    font-weight: 100;
+}
+
+/*WELCOME*/
+.Background-Welcome{
+    height:100vh;
+    display: flex;
+    text-align:center;
+    align-items: center;
+}
+
+.Welcome{
+    width:50vw;
+    background-color:  rgba(20,20, 20, 0.6);
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 10px rgba(20,20, 20, 1);
+    text-align: center;
+    color: whitesmoke;
+    padding:3vh 2vw;
+    padding-bottom:6vh;
+}
+.Welcome h1{
+    margin-left:10%;
+    position: relative;
+    padding:0;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 50;
+    font-size: 4vw;
+    letter-spacing:3vw;
+}
+.Welcome p{
+  position: relative;
+    padding:0;
+    margin:2vh;
+    letter-spacing:-2px;
+    font-weight: 100;
+    color: whitesmoke;
+    font-size: 3vw;
+}
+
+.Iam{
+    letter-spacing:2px;
+}
+.WhoAmI{
+  position: relative;
+    letter-spacing:0px;
+    color: #39d2e3;
+    text-shadow: 0px 0px 20px #39d2e3;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+/*ABOUT ME*/
+
+.AboutMe{
+    display: flex;
+    padding: 15vh 0;
+    align-items: center;
+    justify-content: center;
+    width:75vw;
+    flex-direction: column;
+}
+.MyFace{
+    border-radius: 50%;
+    margin: 1vh 5vw 10px 0px;
+    height:40vh;
+    border: 1px solid #00E06F;
+    box-shadow: 10px 10px 0px #39d2e3;
+}
+.MyWrapper{
+    display: flex;
+    flex-direction: row;
+width:90%;
+}
+.AboutMe h1{
+    text-align: right;
+    margin-bottom: 5vh;
+    color: #1ab8c9;
+    letter-spacing:12px;
+    font-weight: 100;
+}
+
+.AboutMe p{
+    text-align: right;
+    color: #1c1c1c;
+    font-size:1.1em;
+    letter-spacing:2px;
+}
+
+.TextAbout{
+}
+hr{
+    color: #39d2e3;
+}
+.Line{
+    height:2px;
+    width:50vw;
+    margin-bottom: 5vh;
+    background-color: #39d2e3;
+}
+
+.Experience h2{
+    margin-top:5vh;
+    text-align: center;
+    margin-bottom: 9vh;
+    font-weight: 100;
+    color: #39d2e3;
+    letter-spacing:12px;
+}
+/*Experience*/
+.ExpGrid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ExpEl{
+    height:100px;
+    width:100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    background: hotpink;
+    margin: 2vh 4vw;
+}
+/*
+.ExpEl:nth-child(1){
+    background: linear-gradient(30deg, #39d2e3 30%, #00E06F 70%);
+}
+.ExpEl:nth-child(2){
+    background: linear-gradient(133deg, #39d2e3 20%, #00E06F 60%);
+}
+.ExpEl:nth-child(3){
+    background: linear-gradient(193deg, #39d2e3 30%, #00E06F 80%);
+}*/
+.ExpEl:hover{
+    box-shadow: 5px 5px 20px #39d2e3;
+}
+.ExpIcon{
+    height:50%;
+}
+
+.hands{
+    height:40%;
+    margin-bottom: 10px;
+}
+
+/*Past work*/
+.Jobs{
+    width:80vw;
+}
+.WombatCircle{
+    background-color: #3a97b5;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.CircleContainer{
+}
+
+.Wombat-container{
+    margin-bottom: 9vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Wombat-text-container h3{
+    font-weight: 200;
+}
+.Wombat-text-container h3 b{
+    font-weight: 400;
+}
+.Wombat-text-container h2{
+    font-weight: 100;
+    color: #39d2e3;
+    margin:0;
+    letter-spacing:12px;
+}
+.Wombat-text-container h1{
+    font-weight: 200;
+    color: #39d2e3;
+    letter-spacing:12px;
+}
+.Wombat-text-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5vw;
+}
+.Circle-empty{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #3a97b5;
+}
+
+.Jobs-columns{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Jobs-Container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    justify-content: center;
+}
+.Jobs-Container h2{
+    color: indianred;
+    font-weight: 400;
+    letter-spacing:5px;
+    text-align: center;
+}
+
+.Coltex{
+    height:70px;
+    margin-bottom:5px;
+}
+
+.BEST{
+    height:120px;
+    margin-right: 25px;
+}
+
+.Jobs-Container p{
+    font-weight: 100;
+    width:300px;
+    height:250px;
+    text-align: center;
+}

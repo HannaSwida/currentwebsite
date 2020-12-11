@@ -1,0 +1,20 @@
+.Contact-container{
+    background-color: indianred;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffccce !important;
+    padding-bottom: 7vh;
+    padding-top: 2vh;
+}
+.Contact-container a{
+    color: #ffccce !important;
+}
+.icon{
+    margin: 1vh;
+    color: #ffccce;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 3em;
+}
